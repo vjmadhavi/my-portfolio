@@ -1,20 +1,29 @@
 import React from 'react';
-import HomeButton from './HomeButton';
+import NextButton from './NextButton';
+import NavBar from './NavBar';
+import './Card.css';
 import './Page.css';
 
 const Education = () => {
   return (
     <div className="page-container">
-      <HomeButton />
-      <h2>Education</h2>
-      <p>
-        <strong>Bachelor of Science in Computer Science</strong> - XYZ University (2014 - 2018):
-        <br />
-        - Graduated with Honors, focusing on software development, algorithms, and AI.
-        <br />
-        - Completed a thesis on the application of machine learning in predictive analytics.
-      </p>
-      
+      <NavBar />  {/* Add NavBar */}
+      <div className="card">
+        <h2>Education</h2>
+        <p>
+          <strong>Master of Science in Computer Science</strong>
+          <br />
+          University of South Dakota, Vermillion, South Dakota (Aug 2021 - Dec 2022)
+          <br />
+          - Course work focused on Design and Analysis of Computer Algorithms, Machine Learning, Artificial Intelligence.
+        </p>
+        <p>
+          <strong>Bachelor of Engineering in Electrical and Elctronics Engineering</strong>
+          <br />
+          Matrusri Engineering College, Hyderabad, India 
+        </p>
+        <NextButton to="/about" />
+      </div>
     </div>
   );
 };

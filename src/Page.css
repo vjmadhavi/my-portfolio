@@ -8,9 +8,8 @@ body {
   }
   
   .page-container {
-    background: url('/Users/venu/my-portfolio/src/WHITE250.jpg'); /* Replace with your wall texture */
+    background: url('/Users/venu/my-portfolio/src/WHITE250.jpg') no-repeat center center;/* Replace with your wall texture */
     background-size: cover;
-    color: #2a2820; /* Cornsilk */
     min-height: 100vh;
     position: relative; /* Ensure HomeButton and NextButton are positioned correctly */
     display: flex;
@@ -18,6 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
+
   }
   
   

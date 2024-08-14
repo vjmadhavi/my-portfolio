@@ -1,39 +1,58 @@
 .card {
-    width: 80%;
+    width: 90%;
     max-width: 600px;
     margin: 100px auto; /* Center the card */
-    background: url('/Users/venu/my-portfolio/src/WHITE250.jpg'); /* Replace with your floral pattern */
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    position: relative;
-    background-color: #fff8dc; /* Cornsilk color for the card */
+    padding: 30px;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 60px;
   }
   
-  .card h2, .card p {
+  .card h2 {
     font-family: 'Caveat', cursive; /* Handwritten font */
-    color: #2f4f4f; /* DarkSlateGray for text */
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  .card p {
+    font-family: 'Caveat', cursive;
+    color: #2f4f4f;
+    margin: 0 0 20px;
+    line-height: 1.6;
+  }
+  .navigation-buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+  }
+  .back-button, .next-button {
+    background-color: #8B4513;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #FFF8DC;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .back-button:hover, .next-button:hover {
+    background-color: #A0522D;
+  }
+  .about-content {
+    font-family: 'Caveat', cursive; /* Handwritten font style */
+    font-size: 1.5em; /* Adjust the size as needed */
+    color: #2f4f4f; /* DarkSlateGray */
+    text-align: center; /* Center the text */
+    margin: 0; /* Remove default margin */
+    line-height: 1.5; /* Adjust line height for readability */
+    padding: 20px; /* Add padding for spacing */
   }
   
-  .pin {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: #d2691e; /* Chocolate color */
-    border-radius: 50%;
-    top: -10px;
-    left: calc(50% - 10px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  }
-  
-  .pin:after {
-    content: '';
-    width: 6px;
-    height: 6px;
-    background-color: #ff6347; /* Tomato color */
-    border-radius: 50%;
-    position: absolute;
-    top: 7px;
-    left: 7px;
-  }
   
