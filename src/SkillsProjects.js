@@ -1,32 +1,26 @@
 import React from 'react';
-import HomeButton from './HomeButton';
 import NextButton from './NextButton';
+import NavBar from './NavBar';
 import './Card.css';
 import './Page.css';
 
 const SkillsProjects = () => {
   return (
     <div className="page-container">
-      <HomeButton />
-      <h2>Top Skills and Projects</h2>
-      <p>
-        <strong>Skills:</strong> React.js, Node.js, Python, Machine Learning, Data Structures, Algorithms, DevOps, AI-driven technologies.
-      </p>
-      <p>
-        <strong>Projects:</strong>
-        <ul>
-          <li>
-            <strong>Project 1:</strong> Developed a real-time chat application using React.js and Node.js with WebSocket integration.
-          </li>
-          <li>
-            <strong>Project 2:</strong> Created a machine learning model to detect brain lesions from MRI data using LSTM and VGG16.
-          </li>
-          <li>
-            <strong>Project 3:</strong> Built a cloud-based data pipeline for processing large datasets using Python and AWS Lambda.
-          </li>
-        </ul>
-      </p>
-      <NextButton to="/Experience" />
+      <NavBar />  {/* Add NavBar */}
+      <div className="card">
+        <h2>Top Skills </h2>
+        <p>
+          <strong>Skills:</strong> 
+          <br />
+          <li> Python, JavaScript, SQL, C</li>
+          <li>Machine Learning, AI, Data Analysis</li>
+          <li>MySQL, Postgre SQL, Oracle, NoSQL, MongoDB </li>
+          <li>DevOps, CI/CD, Cloud Computing (AWS, Azure, GCP)</li>
+          <li>Tableau, PowerBI</li>
+        </p>
+        <NextButton to="/experience" />
+      </div>
     </div>
   );
 };
