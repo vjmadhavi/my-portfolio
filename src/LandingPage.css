@@ -1,0 +1,67 @@
+/* LandingPage.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5DC; /* Light beige */
+    color: #ede0e0; /* Dark brown */
+  }
+  
+  .landing-page {
+    text-align: center;
+    padding-top: 100px;
+    height: 100vh;
+    background-color: #e3dad4; /* SaddleBrown */
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #23211c; /* Cornsilk */
+    margin-bottom: 50px;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    background-color: #9a8971; /* Tan */
+    color: #1b1414; /* Dark brown */
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .box:hover {
+    transform: scale(1.1);
+    
+  }
+  
+  .page-container {
+    padding: 50px;
+    background-color: #FFF8DC; /* Cornsilk */
+    color: #dccdcd; /* Dark brown */
+    min-height: 100vh;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  

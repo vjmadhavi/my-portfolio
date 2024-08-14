@@ -1,0 +1,39 @@
+.card {
+    width: 80%;
+    max-width: 600px;
+    margin: 100px auto; /* Center the card */
+    background: url('/Users/venu/my-portfolio/src/WHITE250.jpg'); /* Replace with your floral pattern */
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    position: relative;
+    background-color: #fff8dc; /* Cornsilk color for the card */
+  }
+  
+  .card h2, .card p {
+    font-family: 'Caveat', cursive; /* Handwritten font */
+    color: #2f4f4f; /* DarkSlateGray for text */
+  }
+  
+  .pin {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #d2691e; /* Chocolate color */
+    border-radius: 50%;
+    top: -10px;
+    left: calc(50% - 10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .pin:after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #ff6347; /* Tomato color */
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+  }
+  

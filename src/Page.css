@@ -1,0 +1,34 @@
+/* Page.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5DC; /* Light beige */
+    color: #242222; /* Dark brown */
+  }
+  
+  .page-container {
+    background: url('/Users/venu/my-portfolio/src/WHITE250.jpg'); /* Replace with your wall texture */
+    background-size: cover;
+    color: #2a2820; /* Cornsilk */
+    min-height: 100vh;
+    position: relative; /* Ensure HomeButton and NextButton are positioned correctly */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #363121; /* Cornsilk */
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  

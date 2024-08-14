@@ -1,0 +1,22 @@
+.home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #3c322a; /* SaddleBrown */
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #FFF8DC; /* Cornsilk */
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .home-button a {
+    color: #FFF8DC; /* Cornsilk */
+    text-decoration: none;
+  }
+  
+  .home-button:hover {
+    background-color: #A0522D; /* Sienna */
+  }
+  

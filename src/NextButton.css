@@ -1,0 +1,22 @@
+.next-button {
+  position: absolute;
+  bottom: 50%;
+  right: 20px;
+  transform: translateY(50%); /* Moves the button down by 50% of its own height */
+  background-color: #47423e; /* SaddleBrown */
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #FFF8DC; /* Cornsilk */
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.next-button a {
+  color: #FFF8DC; /* Cornsilk */
+  text-decoration: none;
+}
+
+.next-button:hover {
+  background-color: #39271e; /* Sienna */
+}
