@@ -33,7 +33,7 @@ body {
     align-items: center;
     width: 180px;
     height: 180px;
-    background-color: #9a8971; /* Tan */
+    background-color: #6b6865; /* Tan */
     color: #1b1414; /* Dark brown */
     font-size: 18px;
     font-weight: bold;
@@ -50,8 +50,8 @@ body {
   
   .page-container {
     padding: 50px;
-    background-color: #807f7a; /* Cornsilk */
-    color: #8b8484; /* Dark brown */
+    background-color: #807f7a; 
+    color: #8b8484; 
     min-height: 100vh;
   }
   

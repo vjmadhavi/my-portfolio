@@ -8,7 +8,7 @@ body {
   }
   
   .page-container {
-    background: url('/Users/venu/my-portfolio/src/WHITE250.jpg') no-repeat center center;/* Replace with your wall texture */
+    background: url('/Users/venu/my-portfolio/src/grey-bgc.jpg') no-repeat center center;/* Replace with your wall texture */
     background-size: cover;
     min-height: 100vh;
     position: relative; /* Ensure HomeButton and NextButton are positioned correctly */
