@@ -3,15 +3,15 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #F5F5DC; /* Light beige */
-    color: #ede0e0; /* Dark brown */
+    background-color: #93938d; /* Light beige */
+    color: #b1abab; /* Dark brown */
   }
   
   .landing-page {
     text-align: center;
     padding-top: 100px;
     height: 100vh;
-    background-color: #e3dad4; /* SaddleBrown */
+    background-color: #7d7976; /* SaddleBrown */
   }
   
   h1 {
@@ -50,8 +50,8 @@ body {
   
   .page-container {
     padding: 50px;
-    background-color: #FFF8DC; /* Cornsilk */
-    color: #dccdcd; /* Dark brown */
+    background-color: #807f7a; /* Cornsilk */
+    color: #8b8484; /* Dark brown */
     min-height: 100vh;
   }
   

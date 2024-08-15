@@ -33,17 +33,17 @@
     gap: 20px;
   }
   .back-button, .next-button {
-    background-color: #8B4513;
+    background-color: #3d352f;
     padding: 10px 20px;
     border-radius: 5px;
-    color: #FFF8DC;
+    color: #f4f3ec;
     font-weight: bold;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
   }
   .back-button:hover, .next-button:hover {
-    background-color: #A0522D;
+    background-color: #3d352f;
   }
   .about-content {
     font-family: 'Caveat', cursive; /* Handwritten font style */

@@ -1,6 +1,7 @@
 import React from 'react';
 import NextButton from './NextButton';
 import NavBar from './NavBar';
+import Footer from './Footer'; 
 import './Card.css';
 import './Page.css';
 
@@ -34,6 +35,7 @@ const Experience = () => {
         </p>
         <NextButton to="/Education" />
       </div>
+      <Footer /> {/* Add Footer */}
     </div>
   );
 };

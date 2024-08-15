@@ -1,10 +1,11 @@
 .navbar {
-    background-color: #737270; /* Brown color */
-    padding: 10px 0;
+    background-color: #4b4642; /* Brown color */
+    padding: 10px 10px;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    height:60px;
     display: flex;
     justify-content: center;
     z-index: 1000;
@@ -35,5 +36,15 @@
   .navbar a:hover {
     background-color: #170d09; /* Lighter brown for hover effect */
     border-radius: 4px;
+  }
+  .contact-link {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .contact-link:hover {
+    background-color: #A0522D;
+    border-radius: 4px;
+    padding: 8px 16px;
   }
   

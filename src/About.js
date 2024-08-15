@@ -1,6 +1,7 @@
 import React from 'react';
 import NextButton from './NextButton';
 import NavBar from './NavBar';
+import Footer from './Footer'; 
 import './Card.css';
 import './Page.css';
 
@@ -18,6 +19,7 @@ const About = () => {
         </p>
         <NextButton to="/skills-projects" />
       </div>
+      <Footer /> {/* Add Footer */}
     </div>
   );
 };
