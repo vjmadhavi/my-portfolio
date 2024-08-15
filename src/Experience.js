@@ -13,24 +13,19 @@ const Experience = () => {
         <h2>Experience</h2>
         <p>
           <strong>Software Engineer at Inkling</strong> (Aug 2022 - Present):<br />
-          Developed automation scripts in Python and Bash to streamline infrastructure management in AWS, <br />
-          cutting operational costs by 30%. Expert in orchestrating Kubernetes environments, implementing<br />
-          CI/CD pipelines with Jenkins and GitHub Actions, and configuring secure network architectures.<br />
-          Proficient in using tools like Terraform, Ansible, and ArgoCD for efficient and reliable deployment processes.<br />
+          Developed automation scripts in Python and Bash to streamline infrastructure management in AWS, 
+          cutting operational costs by 30%. Expert in orchestrating Kubernetes environments, implementing
+          CI/CD pipelines with Jenkins and GitHub Actions, and configuring secure network architectures.
+          Proficient in using tools like Terraform, Ansible, and ArgoCD for efficient and reliable deployment processes.
         </p>
         <p>
-          <strong>Software Developer at Tata Consultancy Services Limited</strong> (Jan 2017 - Aug 2021):
+          <strong>Software Developer at Tata Consultancy Services Limited</strong> (Jan 2020 - Aug 2021):
           <br />
-          The project was developed on an Oracle-based platform, focusing on financial reporting tools and data management
-          systems for a banking client.
-          <br />
-          This platform supports a range of applications, including transaction processing systems and risk management tools.
-          <br />
-          The primary business requirement was to develop and optimize data-driven banking applications to enhance overall
-          business efficiency and customer experience.
-          <br />
-          This involved improving data accuracy and reporting efficiency to support regulatory compliance and internal decision-making,
-          while also optimizing customer data processing and transaction management for better operational performance.
+          Migrated on-premises applications to AWS, leveraging EC2, S3, and RDS to cut infrastructure costs
+           by 40% and boost performance by 50%. Established a secure CI/CD pipeline with Jenkins, Docker,
+            and Ansible, reducing deployment time from 2 days to 2 hours. Enhanced system visibility and
+             uptime using CloudWatch and Prometheus, and implemented IaC with Terraform, increasing infrastructure
+              management efficiency by 60%.
         </p>
         <NextButton to="/Education" />
       </div>

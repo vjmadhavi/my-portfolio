@@ -9,7 +9,7 @@ const ContactMe = ({ isOpen, onClose }) => {
       <div className="modal-content">
         <h2>Contact Me</h2>
         <p>You can reach me at:</p>
-        <p><strong>madhavi.j116@gmail.com</strong></p>
+        <p><strong>venu.mjakkampudi@gmail.com</strong></p>
         <button className="close-button" onClick={onClose}>Close</button>
       </div>
     </div>
