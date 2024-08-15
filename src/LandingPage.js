@@ -9,7 +9,7 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
       <NavBar />  {/* Add NavBar */}
-      <h1>Hello, I'm Madhavi! Welcome to my portfolio</h1>
+      <h1>Hello, I'm Venu! Welcome to my portfolio</h1>
       <div className="box-container">
         <Link to="/about" className="box">About</Link>
         <Link to="/skills-projects" className="box">Skills</Link>

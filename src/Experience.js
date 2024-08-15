@@ -12,12 +12,11 @@ const Experience = () => {
       <div className="card">
         <h2>Experience</h2>
         <p>
-          <strong>Software Developer at Qualcomm</strong> (Aug 2022 - Present):
-          <br />The project focuses on implementing and optimizing vision processing pipelines and algorithms<br />
-           on Qualcomm platforms, where I utilized Python to develop high-performance web applications with Django.<br />
-            I also designed RESTful APIs for seamless communication between software systems and applied<br />
-            multi-threading and asynchronous programming to efficiently manage concurrent tasks, enhancing the<br />
-            overall responsiveness and reliability of the applications.
+          <strong>Software Engineer at Inkling</strong> (Aug 2022 - Present):<br />
+          Developed automation scripts in Python and Bash to streamline infrastructure management in AWS, <br />
+          cutting operational costs by 30%. Expert in orchestrating Kubernetes environments, implementing<br />
+          CI/CD pipelines with Jenkins and GitHub Actions, and configuring secure network architectures.<br />
+          Proficient in using tools like Terraform, Ansible, and ArgoCD for efficient and reliable deployment processes.<br />
         </p>
         <p>
           <strong>Software Developer at Tata Consultancy Services Limited</strong> (Jan 2017 - Aug 2021):
