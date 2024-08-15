@@ -31,4 +31,33 @@ body {
     font-size: 1.2em;
     line-height: 1.6;
   }
+  .page-container.turning {
+    animation: turnPage 0.6s forwards; /* Apply page turn effect */
+  }
+/* styles.css */
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
   

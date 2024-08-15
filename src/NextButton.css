@@ -1,22 +1,27 @@
 .next-button {
   position: absolute;
-  bottom: 50%;
-  right: 20px;
-  transform: translateY(50%); /* Moves the button down by 50% of its own height */
-  background-color: #47423e; /* SaddleBrown */
+  
+  right: 200px;
   padding: 10px 20px;
-  border-radius: 5px;
-  color: #FFF8DC; /* Cornsilk */
-  font-weight: bold;
-  text-decoration: none;
-  transition: background-color 0.3s;
-}
-
-.next-button a {
-  color: #FFF8DC; /* Cornsilk */
-  text-decoration: none;
+  background-color: #8B4513; /* Brown color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 .next-button:hover {
-  background-color: #2c2b2a; /* Sienna */
+  background-color: #A0522D; /* Lighter brown for hover effect */
 }
+
+.next-button:active {
+  transform: rotateY(180deg); /* Simple page flip effect */
+  transition: transform 0.6s ease;
+}
+
+.page-container {
+  animation: turnPage 0.6s forwards; /* Apply page turn effect */
+}
+
